@@ -1,0 +1,109 @@
+/* _content/RecordManagementSystemClient/Components/Layout/AccountLayout.razor.rz.scp.css */
+.body[b-qab0ku1hrl]{
+    width: 100%;
+    height: 100vh;
+    background-image: url('images/blur.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* _content/RecordManagementSystemClient/Components/Pages/SignIn.razor.rz.scp.css */
+.card[b-m0pxrqisx7]{
+    width: 370px;
+    height: 520px;
+    background-color: rgb(255,255,255,0.4);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card img[b-m0pxrqisx7]{
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    top:0;
+    top:20px;
+}
+.card input[b-m0pxrqisx7]{
+    border: none;
+    width: 220px;
+    height: 40px;
+    border-radius: 4px;
+    padding-left: 20px;
+    margin: 9px;
+}
+.card input:focus[b-m0pxrqisx7]{
+    outline: none;
+}
+.card button[b-m0pxrqisx7]{
+    width: 220px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00A4B5;
+    color: white;
+    margin-top: 20px;
+}
+
+.card input[b-m0pxrqisx7],button[b-m0pxrqisx7]{
+    position: relative;
+    top:10px;
+}
+.card h1[b-m0pxrqisx7]{
+    text-align: center;
+    font-weight: 600;
+    color: #32325D;
+    line-height: 50px;
+    margin-top: 90px;
+}
+/* _content/RecordManagementSystemClient/Components/Pages/SignUp.razor.rz.scp.css */
+.card[b-dwe26282ux]{
+    width: 370px;
+    height: 520px;
+    background-color: rgb(255,255,255,0.4);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card img[b-dwe26282ux]{
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    top:0;
+    top:20px;
+}
+.card input[b-dwe26282ux]{
+    border: none;
+    width: 220px;
+    height: 40px;
+    border-radius: 4px;
+    padding-left: 20px;
+    margin: 9px;
+}
+.card input:focus[b-dwe26282ux]{
+    outline: none;
+}
+.card button[b-dwe26282ux]{
+    width: 220px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00A4B5;
+    color: white;
+    margin-top: 20px;
+}
+
+.card input[b-dwe26282ux],button[b-dwe26282ux]{
+    position: relative;
+    top:10px;
+}
+.card h1[b-dwe26282ux]{
+    text-align: center;
+    font-weight: 600;
+    color: #32325D;
+    line-height: 50px;
+    margin-top: 90px;
+}
