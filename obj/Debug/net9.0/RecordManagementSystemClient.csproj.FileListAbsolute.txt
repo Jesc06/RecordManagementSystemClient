@@ -72,5 +72,5 @@ C:\Users\escar\Music\RecordManagementSystemClient\RecordManagementSystemClient\o
 C:\Users\escar\Music\RecordManagementSystemClient\RecordManagementSystemClient\obj\Debug\net9.0\ref\RecordManagementSystemClient.dll
 C:\Users\escar\Music\RecordManagementSystemClient\RecordManagementSystemClient\obj\Debug\net9.0\scopedcss\Components\Pages\SignIn.razor.rz.scp.css
 C:\Users\escar\Music\RecordManagementSystemClient\RecordManagementSystemClient\obj\Debug\net9.0\scopedcss\Components\Pages\SignUp.razor.rz.scp.css
-C:\Users\escar\Music\RecordManagementSystemClient\RecordManagementSystemClient\obj\Debug\net9.0\compressed\dm2ktwj3or-74cw4jmr28.gz
-C:\Users\escar\Music\RecordManagementSystemClient\RecordManagementSystemClient\obj\Debug\net9.0\compressed\il2bblz577-74cw4jmr28.gz
+C:\Users\escar\Music\RecordManagementSystemClient\RecordManagementSystemClient\obj\Debug\net9.0\compressed\dm2ktwj3or-wdvrsgotgs.gz
+C:\Users\escar\Music\RecordManagementSystemClient\RecordManagementSystemClient\obj\Debug\net9.0\compressed\il2bblz577-wdvrsgotgs.gz

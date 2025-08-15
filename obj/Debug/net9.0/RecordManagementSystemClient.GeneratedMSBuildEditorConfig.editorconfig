@@ -24,6 +24,14 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/escar/Music/RecordManagementSystemClient/RecordManagementSystemClient/Components/Pages/Failed.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xGYWlsZWQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/escar/Music/RecordManagementSystemClient/RecordManagementSystemClient/Components/Pages/Success.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTdWNjZXNzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/escar/Music/RecordManagementSystemClient/RecordManagementSystemClient/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

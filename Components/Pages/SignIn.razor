@@ -2,18 +2,33 @@
 @layout AccountLayout
 @rendermode InteractiveServer
 @inject NavigationManager nav
+@inject HttpClient httpClient
+@inject IJSRuntime jsRuntime
 
 
 <div class="card">
 <img src="images/MinsuLogo.png">
 <h1>Mindoro State University</h1>
-<input type="text" placeholder="Email">
-<input type="password" placeholder="Password">
-<button type="submit" @onclick="SignUp">Sign in</button>
+<input type="text" placeholder="Email" @bind="login.email">
+<input type="password" placeholder="Password" @bind="login.password">
+<button type="submit" @onclick="Login">Sign in</button>
 </div>
 
+
+
 @code{
-   void SignUp(){
-        nav.NavigateTo("/signUp");
+ LoginDTO login = new();
+ async Task Login(){
+   var response = await httpClient.PostAsJsonAsync("https://localhost:7253/api/Account/Login", login);
+   if(response.IsSuccessStatusCode){
+      var jwt = await response.Content.ReadAsStringAsync();
+      await jsRuntime.InvokeVoidAsync("sessionStorage.setItem", "jwt", jwt);
+      nav.NavigateTo("/success");
    }
+   else{
+      nav.NavigateTo("/mali");
+   }
+
+ }
+
 }

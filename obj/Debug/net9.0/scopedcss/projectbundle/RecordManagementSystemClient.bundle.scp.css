@@ -13,7 +13,7 @@
 .card[b-m0pxrqisx7]{
     width: 370px;
     height: 520px;
-    background-color: rgb(255,255,255,0.4);
+    background-color: rgb(255,255,255,0.3);
     border: none;
     display: flex;
     justify-content: center;
@@ -55,14 +55,15 @@
     text-align: center;
     font-weight: 600;
     color: #32325D;
-    line-height: 50px;
+    line-height: 48px;
     margin-top: 90px;
+    font-size: 2.2rem;
 }
 /* _content/RecordManagementSystemClient/Components/Pages/SignUp.razor.rz.scp.css */
 .card[b-dwe26282ux]{
     width: 370px;
     height: 520px;
-    background-color: rgb(255,255,255,0.4);
+    background-color: rgb(255,255,255,0.3);
     border: none;
     display: flex;
     justify-content: center;
@@ -104,6 +105,7 @@
     text-align: center;
     font-weight: 600;
     color: #32325D;
-    line-height: 50px;
+    line-height: 48px;
     margin-top: 90px;
+    font-size: 2.2rem;
 }
