@@ -3,6 +3,7 @@
 @rendermode InteractiveServer
 @inject NavigationManager nav
 @inject HttpClient httpClient
+@inject IHttpClientFactory httpClientFactory
 @inject IJSRuntime jsRuntime
 
 
@@ -19,7 +20,8 @@
 @code{
  LoginDTO login = new();
  async Task Login(){
-   var response = await httpClient.PostAsJsonAsync("https://localhost:7253/api/Account/Login", login);
+   var httpClient = httpClientFactory.CreateClient("API");
+   var response = await httpClient.PostAsJsonAsync("api/Account/Login", login);
    if(response.IsSuccessStatusCode){
       var jwt = await response.Content.ReadAsStringAsync();
       await jsRuntime.InvokeVoidAsync("sessionStorage.setItem", "jwt", jwt);
